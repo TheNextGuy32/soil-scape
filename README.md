@@ -16,16 +16,16 @@ var soilScape = require('soil-scape');
 To create a simulation use `createSimulation(specs)` where specs are the creation parameters. This returns a snapshot of the simulation on the first day of creation. 
 
 The specs object expects:
-* .size.rows - _int [1,100]_ - The number of province rows
-* .size.columns - _int [1,100]_ - The number of province columns
-* .plantsPer - _int 1, 3, 9, or 16_ - The number of plants per province
-* .tilt - _float[0,1]_ - The tilt of the Earth which determines the sunbelt location, 0 is North, 0.5 is the Equator, and 1 is South
-* .rotation - _int -1 or 1_ - The rotation of the Earth determines macroscopic weather phenomena, -1 is left, 1 is right
-* .rules.maturity - _boolean_ - Whether or not plants must mature to repoduce 
-* .rules.heliophilia - _boolean_ - Whether or not plants need sunlight
-* .rules.thirst - _boolean_ - Whether or not plants need rain
-* .rules.roots - _int [1,8]_ - How many plant neighbors causes death by root competition
-* .rules.mutation - _float [0,1]_ - The plant gene mutation rate
+* .size.rows - **int [1,100]** - The number of province rows
+* .size.columns - **int [1,100]** - The number of province columns
+* .plantsPer - **int 1, 3, 9, or 16** - The number of plants per province
+* .tilt - **float[0,1]** - The tilt of the Earth which determines the sunbelt location, 0 is North, 0.5 is the Equator, and 1 is South
+* .rotation - **int -1 or 1** - The rotation of the Earth determines macroscopic weather phenomena, -1 is left, 1 is right
+* .rules.maturity - **boolean** - Whether or not plants must mature to repoduce 
+* .rules.heliophilia - **boolean** - Whether or not plants need sunlight
+* .rules.thirst - **boolean** - Whether or not plants need rain
+* .rules.roots - **int [1,8]** - How many plant neighbors causes death by root competition
+* .rules.mutation - **float [0,1]** - The plant gene mutation rate
 
 Here's an example of world creation:
 ```
