@@ -1,6 +1,6 @@
 'use strict';
+const simulator = require('./lib/simulate.js');
 
-exports.utility = require('./lib/utility.js');
-exports.manager = require('./lib/manager.js');
-exports.requests = require('./lib/request.js');
-exports.renderer = require('./lib/render.js');
+exports.createSimulation = simulator.createSimulation;
+exports.toDays = require('./lib/utility.js').toDays;
+exports.simulate = simulator.simulateDays;

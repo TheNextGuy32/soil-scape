@@ -10,13 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/TheNextGuy32/soil-scape.git"
   },
-  "author": "Oliver Barnum",
-  "license": "ISC",
+  "author": {
+      "name": "Oliver Barbnum",
+      "email": "oliverbarnum32@gmail.com"
+  },
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TheNextGuy32/soil-scape/issues"
   },
   "homepage": "https://github.com/TheNextGuy32/soil-scape#readme",
   "dependencies": {
+    "name-that-color": "^0.1.0",
     "randomcolor": "^0.4.4"
   }
 }
