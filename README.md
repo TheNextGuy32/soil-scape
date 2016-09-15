@@ -52,13 +52,13 @@ var world = soilScape.createSimulation(specs);
 
 Then we can pass time by using `simulate(ctx, days, every)` where `ctx` is a simulation snapshot, `days` is the number days you'd like simulated, and `every` is the save interval in days. This returns an array of simulation snapshots.
 ```
-var newDates = soilScape.simulate(world, 360, 10); // A full year with snapshots every week
+var newDates = soilScape.simulate(world, 360, 10); //  A full year with snapshots every week
 ```
 One should note that a week lasts 10 days, a months lasts 30 days, and a years lasts 360 days within the SoilScape. 
 
 If you want to specify the number of days, weeks, months, and years, you can use `toDays(days, weeks, months, years)`.
 ```
-var newDates = soilScape.simulate(world, soilScape.toDays(360, 4, 12, 1), 10); =  // 4 Years
+var newDates = soilScape.simulate(world, soilScape.toDays(360, 4, 12, 1), 10); //  4 Years
 ```
 
 ## Built With
