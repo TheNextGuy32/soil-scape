@@ -66,10 +66,6 @@ var newDates = soilScape.simulate(world, soilScape.toDays(360, 4, 12, 1), 10); /
 * [Name that Color](http://chir.ag/projects/name-that-color/) 
 * [Random Color](https://randomcolor.llllll.li/)
 
-## Versioning
-
-[SemVer](http://semver.org/).
-
 ## Author
 
 **Oliver Barnum** 
