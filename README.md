@@ -58,7 +58,7 @@ One should note that a week lasts 10 days, a months lasts 30 days, and a years l
 
 If you want to specify the number of days, weeks, months, and years, you can use `toDays(days, weeks, months, years)`.
 ```
-var newDates = soilScape.simulate(world, soilScape.toDays(360, 4, 12, 1);, 10); =  // 4 Years
+var newDates = soilScape.simulate(world, soilScape.toDays(360, 4, 12, 1), 10); =  // 4 Years
 ```
 
 ## Built With
