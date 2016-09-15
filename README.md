@@ -1,13 +1,15 @@
 # Soil-Scape
 
-The Soil-Scape is a simulation libary that models Earth-like plate tectonics and plate genetics. 
+The Soil-Scape is a simulation libary that models Earth-like plate tectonics and plant genetics. 
+
+## Getting Started
 
 ### Installing
 
 ```
 npm install soil-scape
 ```
-## Getting Started
+### Using
 
 To begin working with Soil-Scape, first we require the module.
 ```
@@ -48,7 +50,7 @@ var specs = {
 var world = soilScape.createSimulation(specs);
 ```
 
-Then we can pass time by using `simulate(ctx, days,every)` where `ctx` is a simulation snapshot, `days` is the number days you'd like simulated, and `every` is the save interval in days. This returns an array of simulation snapshots.
+Then we can pass time by using `simulate(ctx, days, every)` where `ctx` is a simulation snapshot, `days` is the number days you'd like simulated, and `every` is the save interval in days. This returns an array of simulation snapshots.
 ```
 var newDates = soilScape.simulate(world, 360, 10); // A full year with snapshots every week
 ```
