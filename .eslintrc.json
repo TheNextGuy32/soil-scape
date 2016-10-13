@@ -11,6 +11,5 @@
 		"no-unused-vars": "warn",
 		"no-mixed-operators": "warn",
 		"no-continue": "warn"		
-    },
-    "allowForLoopAfterthoughts": true
+    }
 }
