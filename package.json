@@ -22,5 +22,17 @@
   "dependencies": {
     "name-that-color": "^0.1.0",
     "randomcolor": "^0.4.4"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.0",
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^1.16.0",
+    "eslint-plugin-jsx-a11y": "^2.2.2",
+    "eslint-plugin-react": "^6.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Tests Complete\"",
+    "pretest": "eslint ./lib --fix",
+    "start": "echo \"Test complete\""
   }
 }
